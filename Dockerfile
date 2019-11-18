@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:10
 
 RUN echo 'deb http://dl.google.com/linux/chrome/deb/ stable main' > /etc/apt/sources.list.d/chrome.list
 
